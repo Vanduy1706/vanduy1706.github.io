@@ -1,0 +1,83 @@
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .big-circle {
+    min-width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    border: 8px solid #6b7280;
+    background-color: #111827;
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .html-circle,
+  .css-circle,
+  .js-circle,
+  .fe-circle,
+  .tailwind-circle,
+  .react-circle,
+  .next-circle,
+  .nodejs-circle,
+  .be-circle,
+  .mongodb-circle,
+  .express-circle,
+  .mssql-circle,
+  .git-circle,
+  .other-circle,
+  .devops-circle {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 4px solid #6b7280;
+    background-color: #111827;
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tailwind-circle,
+  .nodejs-circle,
+  .git-circle {
+    margin-top: -240px;
+  }
+
+  .react-circle,
+  .js-circle {
+    margin-top: 140px;
+  }
+
+  .html-circle,
+  .css-circle {
+    margin-top: -140px;
+  }
+
+  .html-circle,
+  .js-circle {
+    margin-right: 200px;
+  }
+
+  .css-circle,
+  .react-circle {
+    margin-left: 200px;
+  }
+
+  .next-circle,
+  .mongodb-circle,
+  .devops-circle {
+    margin-top: 240px;
+  }
+
+  .express-circle {
+    margin-right: 240px;
+  }
+
+  .mssql-circle {
+    margin-left: 240px;
+  }
+}
